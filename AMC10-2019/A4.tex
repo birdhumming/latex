@@ -1,0 +1,74 @@
+\documentclass[12pt]{exam}
+\usepackage{amsmath,amsfonts,amssymb}
+
+\usepackage{diagbox}
+\usepackage[colorlinks]{hyperref}
+
+\usepackage{graphicx,caption,subcaption}
+
+\usepackage{tikz}
+
+%\usepackage{url}
+%\urlstyle{tt}
+
+\usepackage{geometry}
+\geometry{%
+  letterpaper,
+  lmargin=1.5cm,
+  rmargin=1.5cm,
+  tmargin=2cm,
+  bmargin=2cm,
+  footskip=12pt,
+  headheight=12pt}
+ 
+ 
+\usepackage[parfill]{parskip}
+\newcommand{\ATAN}{\operatorname{TAN}^{-1}}
+\DeclareMathOperator{\COS}{COS}
+ 
+\usepackage{lastpage}
+\headheight 35pt
+
+\lhead{Mathcounts 2020}
+
+\def\a{{\alpha}}
+\def\b{{\beta}}
+\def\g{{\gamma}}
+                   
+\DeclareUnicodeCharacter{2212}{-}  
+
+\qformat{}
+
+\begin{document}
+
+\thispagestyle{empty}
+
+\begin{center}\section*{AMC10 2019 A4}
+
+\end{center}
+\bigskip
+\begin{questions}
+
+\question 
+A box contains $28$ red balls, $20$ green balls, $19$ yellow balls, $13$ blue balls, $11$ white balls, and $9$ black balls. 
+What is the minimum number of balls that must be drawn from the box 
+without replacement to guarantee that at least $15$ balls of a single color will be drawn?
+\bigskip
+
+\begin{oneparchoices}
+    \choice 75
+    \choice 76
+    \choice 79
+    \choice 84
+    \choice 91
+\end{oneparchoices}
+
+\vspace{0.5cm}
+The maximum number of balls we can draw without drawing 15 of the same color 
+comes from this scenario: 
+we draw 14 red, 14 green, 14 yellow, 13 blue, 11 white, and 9 black. 
+This gives us 75 balls. Drawing one more ball will guarantee us 15 of the same color, 
+so the answer is B (76).
+
+\end{questions}
+\end{document}
