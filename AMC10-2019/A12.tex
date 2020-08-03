@@ -1,0 +1,75 @@
+\documentclass[12pt]{exam}
+\usepackage{amsmath,amsfonts,amssymb}
+\usepackage{diagbox}
+\usepackage[colorlinks]{hyperref}
+\usepackage{graphicx,caption,subcaption}
+\usepackage{tikz}
+\usepackage{geometry}
+\usepackage{textgreek}
+\usepackage[T1]{fontenc}
+\geometry{%
+  letterpaper,
+  lmargin=1.5cm,
+  rmargin=1.5cm,
+  tmargin=2cm,
+  bmargin=2cm,
+  footskip=12pt,
+  headheight=12pt
+}
+\usepackage[parfill]{parskip}
+\newcommand{\ATAN}{\operatorname{TAN}^{-1}}
+\DeclareMathOperator{\COS}{COS}
+\usepackage{lastpage}
+\headheight 35pt
+
+\lhead{Mathcounts 2020}
+
+\def\a{{\alpha}}
+\def\b{{\beta}}
+\def\g{{\gamma}}
+                   
+\DeclareUnicodeCharacter{2212}{-}  
+
+\qformat{}
+
+\begin{document}
+
+\thispagestyle{empty}
+
+\begin{center}\section*{AMC10 2019 A4}
+
+\end{center}
+\bigskip
+\begin{questions}
+
+\question 
+Melanie computes the mean $\mu$, the median M, and the modes of the 365 values 
+that are the dates in the months of 2019. 
+Thus her data consists of 12 1s, 12 2s, ... , 12 28s, 11 29s, 11 30s, and 7 31s. 
+Let d be the median of the modes. 
+Which of the following statements is true?
+\bigskip
+
+\begin{oneparchoices}
+    \choice $\mu < d < M$
+    \choice M < d < $\mu$
+    \choice d = M = $\mu$
+    \choice d $<$ M < $\mu$
+    \choice d < $\mu$ < M
+\end{oneparchoices}
+
+\vspace{0.5cm}
+d obviously must be less than M, 
+so we can rule out (B) and (C). 
+Since there are 365 entries, M is the 183rd number, 
+which lies between 15$\times$12 + 1 (180) and 16$\times$12 (192). 
+Therefore, M=16. We can also see that d = 14.5. 
+If we ignored the 11 29s, 11 30s, and 7 31s, 
+$\mu$ would also be =14.5. Because there are larger elements given, 
+though, we can see that $\mu$ is greater than d. 
+On the other hand, since there are fewer 29s, 30s, and 31s than the rest of the numbers,
+ the mean has to be lower than the median. 
+ So, the answer is E (d < $\mu$ < M).
+
+\end{questions}
+\end{document}
