@@ -1,0 +1,65 @@
+\documentclass[12pt]{exam}
+\usepackage{amsmath,amsfonts,amssymb}
+\usepackage{diagbox}
+\usepackage[colorlinks]{hyperref}
+\usepackage{graphicx,caption,subcaption}
+\usepackage{tikz}
+\usepackage{geometry}
+\geometry{%
+  letterpaper,
+  lmargin=1.5cm,
+  rmargin=1.5cm,
+  tmargin=2cm,
+  bmargin=2cm,
+  footskip=12pt,
+  headheight=12pt
+}
+\usepackage[parfill]{parskip}
+\newcommand{\ATAN}{\operatorname{TAN}^{-1}}
+\DeclareMathOperator{\COS}{COS}
+\usepackage{lastpage}
+\headheight 35pt
+
+\lhead{Mathcounts 2020}
+
+\def\a{{\alpha}}
+\def\b{{\beta}}
+\def\g{{\gamma}}
+                   
+\DeclareUnicodeCharacter{2212}{-}  
+
+\qformat{}
+
+\begin{document}
+
+\thispagestyle{empty}
+
+\begin{center}\section*{AMC12 2010 B22}
+
+\end{center}
+\bigskip
+\begin{questions}
+
+\question 
+Let $ABCD$ be a cyclic quadrilateral. 
+The side lengths of $ABCD$ are distinct integers less than $15$ such that $BC\cdot CD=AB\cdot DA$. 
+What is the largest possible value of $BD$? 
+\bigskip
+
+\begin{oneparchoices}
+    \choice $\sqrt{\frac{325}{2}}$
+    \choice $\sqrt{185}$
+    \choice $\sqrt{\frac{389}{2}}$
+    \choice $\sqrt{\frac{425}{2}}$
+    \choice $\sqrt{\frac{533}{2}}$
+\end{oneparchoices}
+
+\vspace{0.5cm}
+Let AB = a, BC = b, CD = c, and DA = d. By the Law of Cosines, $BD^2 = a^2 + d^2 - 2ad \cos \angle BAD$
+and $BD^2 = b^2 + c^2 - 2bc \cos \angle BCD$. $ad = bc$ and $\angle BAD = 180 - \angle BCD$, which gives us 
+$\cos \angle BAD = -\cos \angle BCD$. Therefore, $2ad \cos \angle BAD = -2bc \cos \angle BCD$. Adding, we get 
+$2BD^2 = a^2 + b^2 + c^2 + d^2$. The maximum values of a, b, c, and d are 14, 6, 12, and 7, respectively. 
+$BD = \sqrt{\frac{14^2 + 6^2 + 12^2 + 7^2}{2}} = \sqrt{\frac{425}{2}}$, so our answer is D.
+
+\end{questions}
+\end{document}

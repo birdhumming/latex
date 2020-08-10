@@ -1,0 +1,20 @@
+# Fdb version 3
+["pdflatex"] 1596638857 "/Users/alexandra/Desktop/math1/problems.tex" "/Users/alexandra/Desktop/math1/problems.pdf" "problems" 1596638857
+  "/Users/alexandra/Desktop/math1/preamble.sty" 0 -1 0 ""
+  "/Users/alexandra/Desktop/math1/problems.aux" 1596638857 8 a94a2480d3289e625eea47cd1b285758 ""
+  "/Users/alexandra/Desktop/math1/problems.tex" 1596638856 1218 72679fbd0de204a93d69697872ad161e ""
+  "/usr/local/texlive/2019/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
+  "/usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr12.tfm" 1136768653 1288 655e228510b4c2a1abe905c368440826 ""
+  "/usr/local/texlive/2019/texmf-dist/tex/latex/base/article.cls" 1544567569 19933 3097d1b31d3c45dc957096f554529032 ""
+  "/usr/local/texlive/2019/texmf-dist/tex/latex/base/ifthen.sty" 1523050425 5161 c004ea5a189d4bdcf42e86754ad75a58 ""
+  "/usr/local/texlive/2019/texmf-dist/tex/latex/base/size12.clo" 1544567569 8305 6a682ae291edd56e2d7accbf95eca451 ""
+  "/usr/local/texlive/2019/texmf-dist/tex/latex/exam/exam.cls" 1513552338 282612 08a9755a8f51d31edf6b4124c9b710f9 ""
+  "/usr/local/texlive/2019/texmf-dist/web2c/texmf.cnf" 1557092114 35484 cb1661360667bf4db662a8895053b554 ""
+  "/usr/local/texlive/2019/texmf-var/web2c/pdftex/pdflatex.fmt" 1557342086 4259635 562fc36ec496993777a6c428d8bfb811 ""
+  "/usr/local/texlive/2019/texmf.cnf" 1557341546 577 d150fef99ac436ad1156e86b0892f6ef ""
+  "preamble.sty" 0 -1 0 ""
+  "problems.tex" 1596638856 1218 72679fbd0de204a93d69697872ad161e ""
+  (generated)
+  "problems.log"
+  "/Users/alexandra/Desktop/math1/problems.pdf"
+  "/Users/alexandra/Desktop/math1/problems.log"

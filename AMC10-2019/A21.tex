@@ -1,0 +1,78 @@
+\documentclass[12pt]{exam}
+\usepackage{amsmath,amsfonts,amssymb}
+\usepackage{diagbox}
+\usepackage[colorlinks]{hyperref}
+\usepackage{graphicx,caption,subcaption}
+\usepackage{tikz}
+\usepackage{geometry}
+\usepackage{textgreek}
+\usepackage{graphicx} 
+\graphicspath{ {./Users/alexandra/Desktop/math1}  }
+\usepackage[T1]{fontenc}
+\geometry{
+  letterpaper,
+  lmargin=1.5cm,
+  rmargin=1.5cm,
+  tmargin=2cm,
+  bmargin=2cm,
+  footskip=12pt,
+  headheight=12pt
+}
+\usepackage[parfill]{parskip}
+\newcommand{\ATAN}{\operatorname{TAN}^{-1}}
+\DeclareMathOperator{\COS}{COS}
+\usepackage{lastpage}
+\headheight 35pt
+
+\def\a{{\alpha}}
+\def\b{{\beta}}
+\def\g{{\gamma}}
+                   
+\DeclareUnicodeCharacter{2212}{-}  
+
+\qformat{}
+
+\begin{document}
+
+\thispagestyle{empty}
+
+\begin{center}\section*{AMC10 2019 A21}
+
+\end{center}
+\bigskip
+\begin{questions}
+
+\question 
+A sphere with center $O$ has radius $6$. 
+A triangle with sides of length $15, 15,$ and $24$ 
+is situated in space so that each of its sides is tangent to the sphere. 
+What is the distance between $O$ and the plane determined by the triangle? 
+\bigskip
+
+\begin{oneparchoices}
+    \choice $2\sqrt{3}$
+    \choice $4$
+    \choice $3\sqrt{2}$
+    \choice $2\sqrt{5}$
+    \choice $5$
+\end{oneparchoices}
+
+\vspace{1cm}
+\includegraphics[scale=0.5]{sphere}
+\hspace{2cm}
+\includegraphics[scale=0.5]{sphere2}
+\vspace{1cm}
+
+The two triangles in figure 2 are 3-4-5 right triangles 
+scaled up by 3 (9-12-15), so the height is 9. 
+Using triangle similarity, we get $\frac{r}{9 - r} = \frac{4}{5}$, 
+so $r = 4$.
+\\[0.5cm]
+Let O be the center of the sphere, let C be the center of the 
+circle that lies on the triangle's plane (the one with radius 4), 
+and let X be the tangency point of the sphere and any side of the 
+triangle. $\triangle OCX$ is a right triangle with hypotenuse length 6
+and one side of length 4. Solving for the other side, we get 
+$\sqrt{6^2 - 4^2} = \sqrt{20}$ = D ($2\sqrt{5}$).
+\end{questions}
+\end{document}

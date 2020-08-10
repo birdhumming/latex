@@ -1,0 +1,71 @@
+\documentclass[12pt]{exam}
+\usepackage{amsmath,amsfonts,amssymb}
+\usepackage{diagbox}
+\usepackage[colorlinks]{hyperref}
+\usepackage{graphicx,caption,subcaption}
+\usepackage{tikz}
+\usepackage{geometry}
+\usepackage{textgreek}
+\usepackage[T1]{fontenc}
+\geometry{%
+  letterpaper,
+  lmargin=1.5cm,
+  rmargin=1.5cm,
+  tmargin=2cm,
+  bmargin=2cm,
+  footskip=12pt,
+  headheight=12pt
+}
+\usepackage[parfill]{parskip}
+\newcommand{\ATAN}{\operatorname{TAN}^{-1}}
+\DeclareMathOperator{\COS}{COS}
+\usepackage{lastpage}
+\headheight 35pt
+
+\lhead{Mathcounts 2020}
+
+\def\a{{\alpha}}
+\def\b{{\beta}}
+\def\g{{\gamma}}
+                   
+\DeclareUnicodeCharacter{2212}{-}  
+
+\qformat{}
+
+\begin{document}
+
+\thispagestyle{empty}
+
+\begin{center}\section*{AMC10 2019 A19}
+
+\end{center}
+\bigskip
+\begin{questions}
+
+\question 
+What is the least possible value of \[(x + 1)(x + 2)(x + 3)(x + 4) + 2019\]
+where $x$ is a real number?
+\bigskip
+
+\begin{oneparchoices}
+    \choice 2017
+    \choice 2018
+    \choice 2019
+    \choice 2020
+    \choice 2021
+\end{oneparchoices}
+
+\vspace{0.5cm}
+Since $(x + 1)(x + 2)(x + 3)(x + 4)$ can be equal to 0,
+we can rule out D and E. 
+
+\vspace{0.5cm}
+$(x + 1)(x + 4)(x + 2)(x + 3) = 
+(x^2 + 5x + 4)(x^2 + 5x + 6)$. If we set $y = (x^2 + 5x + 5)$, 
+the equation can be rewritten as $(y - 1)(y + 1) + 2019 = y^2 + 2018$.
+Since $y^2$ is positive, $y = 0$ gives us the minimum value. 
+We can see that $x^2 + 5x + 5 = 0$ has real roots, therefore, $y$ can be
+equal to 0 and our answer is B (2018).
+
+\end{questions}
+\end{document}
